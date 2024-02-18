@@ -1,6 +1,7 @@
 #include "Persona.cpp"
 #include <iostream>
 using namespace std;
+// esta clase es la clase estudiantes que hereda de la clase persona
 class Estudiante : Persona{
 	// atributo Estudiante = carnet 
 	private : string carnet;
