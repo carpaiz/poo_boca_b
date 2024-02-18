@@ -4,6 +4,22 @@ using namespace std;
 
 main(){
 	 // instancia de un objeto
-	 Estudiante estudiante = Estudiante("Armando","Cardona","Guatemala",123,"2024-02-18","7990");
+	 string varc,varn,varap,vardir,varfn;
+	 int vart;
+	 
+	 cout<<"Ingrese Carnet:";
+	 cin>>varc;
+	 cout<<"Ingrese Nombre:";
+	 cin>>varn;
+	 cout<<"Ingrese Apellido:";
+	 cin>>varap;
+	 cout<<"Ingrese Direccion:";
+	 cin>>vardir;
+	 cout<<"Ingrese Fecha Nacimiento:";
+	 cin>>varfn;
+	 cout<<"Ingrese Telefono:";
+	 cin>>vart;
+	 cout<<" ----------- Mostrar Datos ---------"<<endl;
+	 Estudiante estudiante = Estudiante(varn,varap,vardir,vart,varfn,varc);
 	 estudiante.leer();
 }
