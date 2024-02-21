@@ -1,1 +1,1 @@
-estas son las instrucciones para el repositorio
+estas son las instrucciones para el repositorio, y es colaborativo
