@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 // solo agregare un comentario
-
+// otro comentario y nada mas
 main(){
 	 // instancia de un objeto
 	 string varc,varn,varap,vardir,varfn;
